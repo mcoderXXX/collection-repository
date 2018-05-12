@@ -1,0 +1,6 @@
+<settings>
+	<category label="Settings">
+	   <setting id="serien_ordner" type ="folder" label="1"/>
+	   <setting id="filme_ordner" type ="folder" label="2"/>
+	</category>
+</settings>

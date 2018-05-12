@@ -644,6 +644,19 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
 	<platform>all</platform>
   </extension>
+</addon><addon id="plugin.video.animetube" name="Anime-Tube.TV" provider-name="Jin" version="1.3.2">
+  <requires>
+   <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource">
+   <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Anime-Tube.TV</summary>
+    <description>Die Anime Community mit hunderten Anime als Livestream.</description>
+    <platform>all</platform>
+    <forum>http://kodinerds.net</forum>
+  </extension>
 </addon><addon id="script.module.autoupdate" name="autoupdate" provider-name="Blazetamer" version="2.0.1">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -2210,5 +2223,28 @@ Se voce gostou do meu trabalho e quiser fazer uma doacao,aqui esta o link PayPal
     <website />
     <email />
     <source />
+  </extension>
+</addon><addon id="plugin.video.animeanime" name="Anime" provider-name="Anime" version="0.6.3">
+  <requires>
+   <import addon="xbmc.python" version="2.1.0" />
+   <import addon="script.module.requests" version="2.3.0" />
+   <import addon="script.module.beautifulsoup4" version="4.3.2" />
+
+   </requires>
+
+  <extension library="anime.py" point="xbmc.python.pluginsource">
+   <provides>video</provides>
+  </extension>
+
+  <extension name="foilos Own Kodi Repo" point="xbmc.addon.repository">
+    <info compressed="true">http://dbiesecke.github.io/repo/addons.xml</info>
+    <checksum>http://dbiesecke.github.io/repo/addons.xml.md5</checksum>
+    <datadir zip="true">http://dbiesecke.github.io/repo/zips</datadir>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Anime Stream Base</summary>
+    <description>All in One Anime Addon</description>
+    <platform>all</platform>
   </extension>
 </addon></addons>
