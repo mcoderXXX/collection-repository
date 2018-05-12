@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.magicplayer" 
+	     name="Magic Player" 
+	     version="0.4.0"
+	     provider-name="MagicCoder">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.f4mTester" version="2.7.2"/>
+    <import addon="script.video.F4mProxy" version="2.8.8"/>
+    <import addon="script.module.urlresolver" version="3.0.26"/>
+    <import addon="script.module.liveresolver" version="0.1.48"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension> 
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Support: https://github.com/mcoderXXX/magicplayer/issues</summary>
+    <description lang="en">Manage your own playlist comfortable, with support of a variety of differnt file extentions.</description>
+    <disclaimer lang="en">Play ts, m3u, m3u8, mp4, mkv and more ...</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>https://github.com/mcoderXXX/magicplayer</forum>
+    <website>https://github.com/mcoderXXX/magicplayer</website>
+    <email>mcoder@protonmail.com</email>
+  </extension>
+</addon>
