@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.mcoderxxx-collection" 
+       name="[COLOR lime][B]MCODERXXX[/B][/COLOR] - [COLOR lime][B]Collection-Repository[/B][/COLOR]" 
+	   version="1.0.0" 
+	   provider-name="mcoderxxx">
+	    <required>
+            <import addon="xbmc.python" version="2.19.0" />                                                                                                                                                    
+        </required> 
+        <extension point="xbmc.addon.repository" name="MCODERXXX Add-on Collection-Repository">
+		    <info compressed="false">https://raw.githubusercontent.com/mcoderXXX/collection-repository/master/repo/addons.xml</info>
+		    <checksum>https://raw.githubusercontent.com/mcoderXXX/collection-repository/master/repo/addons.xml.md5</checksum>
+		    <datadir zip="true">https://raw.githubusercontent.com/mcoderXXX/collection-repository/master/repo/</datadir>
+	    </extension>
+	    <extension point="xbmc.addon.metadata">
+		    <summary>Addon collection</summary>
+		    <description></description>
+		    <disclaimer></disclaimer>
+		    <platform>all</platform>
+            <news></news>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+            </assets> 
+	    </extension>
+</addon>
